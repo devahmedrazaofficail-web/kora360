@@ -1,6 +1,6 @@
 # كورة 360 — SEO Implementation Report
 
-**Date:** 9 October 2026 · **Site:** kora360live.com (placeholder — replace with real domain, see README) · **Target:** Saudi Arabia (ar-SA)
+**Date:** 9 October 2026 · **Site:** https://kora360.vercel.app · **Target:** Saudi Arabia (ar-SA)
 
 ## 1. Reference analysis (Phase 1)
 
@@ -63,7 +63,7 @@ WebSite, Organization, WebPage, BreadcrumbList, FAQPage (home + channels), NewsA
 
 ## 9. Outstanding issues / owner tasks
 
-1. **Replace placeholder domain** `kora360live.com` everywhere (one `sed` command in README).
+1. ~~Replace placeholder domain~~ — done: site now uses `https://kora360.vercel.app` everywhere.
 2. **Update `fixtures.js` weekly** — Saudi fixtures are real (Round 8, Oct 2026); European ones are clearly-marked sample data.
 3. **Connect the contact form** to Formspree (instructions in README) — currently front-end validation only.
 4. Submit `sitemap.xml` in Google Search Console after launch; add analytics if desired.

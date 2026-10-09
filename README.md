@@ -46,13 +46,13 @@ kora360-site/
 النطاق المؤقت المستخدم في `canonical` و`og:url` و`sitemap.xml` و`robots.txt` هو:
 
 ```
-https://kora360live.com/
+https://kora360.vercel.app/
 ```
 
 ابحث عنه في كل الملفات واستبدله بدومينك الحقيقي:
 
 ```bash
-grep -rl "kora360live.com" . | xargs sed -i 's|kora360live.com|YOUR-DOMAIN.com|g'
+grep -rl "kora360.vercel.app" . | xargs sed -i 's|kora360.vercel.app|YOUR-DOMAIN.com|g'
 ```
 
 ## النشر على Vercel (بدون Build)

@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://kora360live.com/sitemap.xml
+Sitemap: https://kora360.vercel.app/sitemap.xml
